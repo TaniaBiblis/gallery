@@ -1,0 +1,9 @@
+body{
+  font-family: 'Acme', sans-serif;
+  background-color: aquamarine;
+}
+
+.main-content{
+  padding-top: 60px;
+  color: darkgray;
+}
