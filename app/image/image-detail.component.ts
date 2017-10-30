@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component } from '@angular/core';
 import { ImageService } from './shared/image.service';
 import { ActivatedRoute } from '@angular/router'
 
@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router'
   templateUrl: './image-detail.component.html',
   styleUrls: ['./image-detail.component.css']
 })
-export class ImageDetailComponent implements OnInit {
+export class ImageDetailComponent {
   image:any
 
   constructor(private imageService: ImageService,
